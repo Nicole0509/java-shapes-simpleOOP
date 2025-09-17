@@ -5,5 +5,9 @@ public class Main {
 
         System.out.println("Welcome To Shapes OOP!");
 
+        Circle circle = new Circle( 3);
+
+        System.out.printf("The area of the circle is %.2f cm²" , circle.calculateArea());
+
     }
 }
